@@ -8,7 +8,7 @@ RUN python -m pip install -r requirements.txt
 WORKDIR /app
 COPY . /app
 
-EXPOSE 8080
+EXPOSE 8000
 
 ENTRYPOINT ["python3"]
 
