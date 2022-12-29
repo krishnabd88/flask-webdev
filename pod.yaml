@@ -5,8 +5,8 @@ metadata:
 spec:
   containers:
   - name: webapp
-    image: k8-test/webapp
+    image: webapp
     imagePullPolicy: Never
     ports:
-    - containerPort: 8080
+    - containerPort: 8001
   restartPolicy: Never
