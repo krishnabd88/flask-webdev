@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webapp
+spec:
+  containers:
+  - name: webapp
+    image: k8-test/webapp
+    imagePullPolicy: Never
+    ports:
+    - containerPort: 8080
+  restartPolicy: Never
